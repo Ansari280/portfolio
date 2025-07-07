@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio Website</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/96c1fa8e23.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      <nav>
+                <h1><span>M</span>ohamed Ansari.</h1>
+                
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+       
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+    <div id="header">
+        <div class="container">
+          <div class="header-text">
+<p>
+    Java Full Stack Developer
+</p>         <h1> Hi, I'm <span>Mohamed Ansari </span><br>from Tenkasi ,India.</h1> 
+  <a href="resume/Mohamed Ansari MCA CV.pdf" target="_blank" download class="btn">Download Resume..</a>
+</div>  </div>
+        </div>
+    </div>
+    <!----------About Section------------>
+
+    <div id="About">
+        <div class="Rows">
+            <div class="col-1">
+                <img src="images/ChatGPT Image Jul 6, 2025, 12_32_53 PM.png" alt="Mohamed Ansari">
+
+            </div>
+            <div class="col-2">
+                <h1 class=" sub-title">About Me</h1>
+                <p class="indent">
+                    I am Mohamed Ansari, an aspiring Java Full Stack Developer with a Master’s degree in Computer Applications and a strong academic record. I have a solid foundation in Core Java, object-oriented programming, front-end technologies (HTML, CSS, JavaScript), and database management with MySQL.
+
+Through my professional internship at Internship Studio, I developed practical mini-projects such as a Pizza Billing System and a Bus Ticket Reservation System, which strengthened my problem-solving abilities and hands-on programming skills. I am also skilled in using design tools like Canva and version control with Git.
+
+I am motivated, detail-oriented, and committed to continuous learning. My goal is to contribute to innovative projects, apply my knowledge effectively, and grow as a proficient full stack developer.
+
+
+
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                
+                <div class="tab-contents active-tab" id="skills">
+                    <ul><li><span>HTML CSS</span><br>Design porfolio web
+                        
+                    </li>
+                    <li><span>Java Script</span><br>Basic Knowledge in JavaScript</li>
+                    <li><span>Java</span><br>Developed mini projects like Pizza Billing System <br> Bus Ticket Reservation System</li>
+                    <li><span>MySql</span> <br>Good Knowledge in Database</li>
+                   <li><span>Canva</span><br>Good knowledge in canva</li>
+                    </ul>
+                </div>
+                  <div class="tab-contents" id="experience">
+                    <ul><li><span>May 2024 - Aug 2024</span><br>completed an internship at Internship Studio, where I worked on mini-projects like Pizza Billing System and Bus Ticket Reservation System.</li>
+                        
+                    </li>
+                   
+                    </ul>
+                </div>
+                  <div class="tab-contents" id="Education">
+                    <ul><li><span>2023 - 2025</span><br>Master of Computer Apllications(MCA)<br>Mohamed Sathak Colege of Arts and Science, chennai</li>
+                        <li><span>2020 - 2023</span><br>Bachelor of Computer Science(B,Sc CS)<br>The New College, chennai</li>
+                        <li><span>2018 - 2020</span><br>Higher Secondary Schooling (HSC)<br>HNUC hr sec school, Tenkasi</li>
+                        <li><span>2017 - 2018</span><br>Secondary Schooling (SSLC)<br>HNUC hr sec school, Tenkasi</li>
+                        
+                    </li>
+                
+                </div>
+           
+        </div>
+    </div><!---Portfolio Section--->
+    <div id="Portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="portfolio-row">
+      <div class="col-3">
+        <h3>Portfolio Website</h3>
+        <p>Developed a portfolio website using HTML CSS JS</p>
+      </div>
+      <div class="col-3">
+        <h3>Bus Ticket Reservation System</h3>
+        <p>Designed and developed a console-based Pizza Billing System using CoreJava. The system handles billing for vegetarian and non-vegetarian pizzas,with options to add or skip toppings and extra charges. ImplementedArrayList to store order data and used switch statements to manage userinput and menu selections efficiently. The program dynamically calculatesthe total bill based on user preferences..</p>
+      </div>
+      <div class="col-3">
+        <h3>Pizza Billing System</h3>
+        <p>ReservationDeveloped a console-based Bus Ticket Reservation System using Core Java tosimulate real-world ticket booking and cancellation. The system allows usersto book or cancel tickets with each booking assigned a unique number. UsedArrayList to store passenger and booking data, and implemented switchstatements to handle various user operations like booking, cancellation, andviewing ticket details.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!----------Contact Section------------>
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+<h1 class="sub-title"> Contact Me</h1>
+<p><i class="fa-solid fa-envelope"></i> mohamedansariprofessional@gmail.com</p>
+<p><i class="fa-solid fa-phone-volume"></i> 9080606184</p>
+<div class="social-icons">
+    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="https://www.linkedin.com/in/mohamed-ansari-10bb51365"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://www.fa-instagram.com/am_ansari_28 "><i class="fa-brands fa-instagram"></i></a>
+</div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text"  name= "Name"placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  row="6"  placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <div id="msg"></div>
+            </div>
+        </div>
+    </div>
+
+
+  <script>
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+      }
+    });
+  }, {
+    threshold: 0.1
+  });
+
+  document.querySelectorAll('.col-3').forEach(col => {
+    observer.observe(col);
+  });
+</script>
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzELJvOALhO3LauHzcWbqG5eseLXwKhdCGotaADtxNH1kL1vuPPm-wd-aFqpJT-KFbB/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById('msg')
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+      .then(response => {
+        console.log('Success!', response)
+        msg.innerHTML = "Message sent successfully!"
+        setTimeout(() => msg.innerHTML = "", 5000)
+        form.reset()
+      })
+      .catch(error => {
+        console.error('Error!', error.message)
+        msg.innerHTML = "Something went wrong!"
+      })
+  })
+</script>
+
+
+</body>
+</html>
