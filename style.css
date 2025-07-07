@@ -13,7 +13,7 @@ body {
 #header { 
     width: 100%;
     height: 100vh;
-    background-image: url('background_imresizer.jpg'); /* Path to your background image */
+    background-image: url("background_imresizer.jpg"); /* Path to your background image */
     background-size: cover;           /* Cover full screen */
   
     background-position: center;      /* Center image */
